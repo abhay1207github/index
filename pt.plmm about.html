@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {background-color: #ccc;}
+      
+                   
+        /* Style the header */
+        header {
+          background-color: #000000;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: rgb(201, 197, 197);
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #e0d4d4;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #000000;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+    </style> 
+        </style>
+        </head>
+        <title>ABOUT US</title>
+    </head>
+    <body>
+        <header>ABOUT US</header>
+        <h1>ABOUT: PT.PARSADILAL MEMORIAL</h1>
+        <H3>Welcome to Pt. Parsadilal Memorial, where education meets excellence! Our institution is dedicated to nurturing young minds, fostering holistic development, and preparing students for a bright future. Let us introduce ourselves:</H3>
+        <h2>Our Legacy</h2>
+        <h3>Pt. Parsadilal Memorial was established in 2008 with a vision to provide quality education to the youth of our community. We take pride in our rich heritage and commitment to academic excellence.</h3>
+        <h2>Our Mission</h2>
+        <h3>At Pt. Parsadilal Memorial, our mission is to empower students with knowledge, critical thinking skills, and values that prepare them for life beyond the classroom. We strive to create responsible citizens who contribute positively to society.</h3>
+        <h2>Our Commitment</h2>
+        <H3>1. Quality Education</H3>
+        <H3>2. Holistic Development</H3>
+        <H3>3. Community Engagement</H3>
+        <footer>
+        <H2>Contact Us</H2>
+    <H3>Have questions or want to learn more? Reach out to us at contact<a href="mailto:pt.plmm1140@gmail.com">pt.plmm1140@gmail.com</a></H3>
+    <h3>Join us on this educational journey at Pt. Parsadilal Memorial!</h3>
+    <p>Copyright © 2024 pt.parsadilal Memorial . All rights reserved.</p>
+        </footer>
