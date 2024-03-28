@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {background-color: #ccc;}
+      
+                   
+        /* Style the header */
+        header {
+          background-color: #000000;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: rgb(201, 197, 197);
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #e0d4d4;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #000000;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+    </style> 
+        </style>
+        </head>
+        <title>Pt.Parsadilal Memorial</title>
+    </head>
+    <body>
+        <header>Pt.Parsadilal Memorial</header>
+        <h1> Pt. Parsadilal Memorial Degree College</h1>
+        <p> Pt. Parsadilal Memorial Degree College, is affiliated by DR. bhim rao ambedkar university established in 2022, Initially offering undergraduate programs, it has since expanded to include postgraduate programs based on student requirements.</p>
+        <h2>Undergraduate Programs:</h2>
+            <h3>1. B.A. (Bachelor of Arts)</h3>
+        <h3>2. B.Sc. (Bachelor of Science)</h3>
+        <h4>The faculty at Pt. Parsadilal Memorial Degree College is committed to helping students achieve their educational goals. They have produced several high-achieving students, including gold medalists in various disciplines. If you’reinterested in pursuing higher education, this college offers a range of courses</h4>
+        <footer>
+           <p> Copyright © 2024 pt.parsadilal Memorial . All rights reserved.</p>
+         <p>For more information, please contact us:<a href="mailto:pt.plmm1140@gmail.com">pt.plmm1140@gmail.com</a></p>
+         <a href="pt.plmm about.html">ABOUT US</a>
+        </footer>
+
+    </body>
